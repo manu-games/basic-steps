@@ -165,6 +165,7 @@ function numberBetween(min, max){
 }
 
 function getRandomColor(){
+    const colors = ['red', 'blue', 'orange', 'green'];
     const index = Math.floor(numberBetween(0, colors.length));
     return colors[index];
 }
