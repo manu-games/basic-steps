@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #myCanvas{
     position: absolute;
     top: 50%;

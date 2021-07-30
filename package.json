@@ -7,9 +7,9 @@
         "geometria": "parcel geometria.html --port 8080",
         "sprites": "parcel sprites.html --port 8080",
         "funciones": "parcel funciones.html --port 8080",
-
         "colisiones:basico": "parcel colisiones-basico.html --port 8080",
-        "colisiones:intermedio": "parcel colisiones-intermedio.html --port 8080"
+        "colisiones:intermedio": "parcel colisiones-intermedio.html --port 8080",
+        "gravedad": "parcel gravedad.html --port 8080"
     },
     "repository": {
         "type": "git",
@@ -24,7 +24,10 @@
     "homepage": "https://github.com/manu-games/basic-steps#readme",
     "dependencies": {
         "parcel-bundler": "^1.12.5",
-        "parcel-plugin-static-files-copy": "^2.6.0"
+        "parcel-plugin-static-files-copy": "^2.6.0",
+        "tailwindcss": "^1.8.10",
+        "postcss-cli": "^7.1.0",
+        "autoprefixer": "^9.7.5"
     },
     "staticFiles": {
         "staticPath": [
@@ -34,5 +37,6 @@
             }
         ],
         "watcherGlob": "**"
-    }
+    },
+    "devDependencies": {}
 }
