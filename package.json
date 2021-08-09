@@ -9,7 +9,14 @@
         "funciones": "parcel funciones.html --port 8080",
         "colisiones:basico": "parcel colisiones-basico.html --port 8080",
         "colisiones:intermedio": "parcel colisiones-intermedio.html --port 8080",
-        "gravedad": "parcel gravedad.html --port 8080"
+        "gravedad": "parcel gravedad.html --port 8080",
+
+        "css:flexbox": "parcel css-flexbox.html --port 8080",
+        "css:grid": "parcel css-grid.html --port 8080",
+
+        "tailwind:basico": "parcel tailwind-basico.html --port 8080",
+        "tailwind:intermedio": "parcel tailwind-intermedio.html --port 8080",
+        "tailwind:flexbox": "parcel tailwind-flexbox.html --port 8080"
     },
     "repository": {
         "type": "git",
@@ -23,11 +30,14 @@
     },
     "homepage": "https://github.com/manu-games/basic-steps#readme",
     "dependencies": {
+        "autoprefixer": "^10.3.1",
+        "parcel": "^2.0.0-rc.0",
         "parcel-bundler": "^1.12.5",
         "parcel-plugin-static-files-copy": "^2.6.0",
-        "tailwindcss": "^1.8.10",
-        "postcss-cli": "^7.1.0",
-        "autoprefixer": "^9.7.5"
+        "postcss": "^8.3.6",
+        "postcss-cli": "^8.3.1",
+        "tailwind": "^4.0.0",
+        "tailwindcss": "^2.2.7"
     },
     "staticFiles": {
         "staticPath": [
@@ -38,5 +48,7 @@
         ],
         "watcherGlob": "**"
     },
-    "devDependencies": {}
+    "devDependencies": {
+        "typescript": "^4.3.5"
+    }
 }
