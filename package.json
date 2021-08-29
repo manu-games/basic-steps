@@ -12,11 +12,13 @@
         "gravedad": "parcel gravedad.html --port 8080",
 
         "css:flexbox": "parcel css-flexbox.html --port 8080",
-        "css:grid": "parcel css-grid.html --port 8080",
+        "css:grid-basico": "parcel css-grid-basico.html --port 8080",
+        "css:grid-intermedio": "parcel css-grid-intermedio.html --port 8080",
 
         "tailwind:basico": "parcel tailwind-basico.html --port 8080",
         "tailwind:intermedio": "parcel tailwind-intermedio.html --port 8080",
-        "tailwind:flexbox": "parcel tailwind-flexbox.html --port 8080"
+        "tailwind:flexbox": "parcel tailwind-flexbox.html --port 8080",
+        "tailwind:grid": "parcel tailwind-grid.html --port 8080"
     },
     "repository": {
         "type": "git",
